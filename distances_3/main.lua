@@ -5,7 +5,8 @@
 
 -- Inspired by : www.gamecodeur.fr --- https://www.gamecodeur.fr/liste-ateliers/atelier-geometrie-analytique/
 
--- Purpose : 
+-- Purpose : This program calculates the Manhattan distance between two objects, in this case a moving hero (with the mouse) and a fixed object. If it is equal to zero, the collision is detected (the fixed object changes color).
+
 
 -- CONFIG --------------------------------------------------------------------------------------------------------------
 
