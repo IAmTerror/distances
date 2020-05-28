@@ -41,7 +41,7 @@ hero.color = {1, 1, 1}
 -- FUNCTIONS ----------------------------------------------------------------------------------------------------------
 
 function infiniteDistance(xA, yA, xB, yB)
-  return math.max(math.max(xB - xA), math.max(yB - yA))
+  return math.max(math.abs(xB - xA), math.abs(yB - yA))
 end
 
 function draw(sprite)
