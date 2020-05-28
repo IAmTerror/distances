@@ -23,8 +23,6 @@ love.graphics.setDefaultFilter("nearest")
 
 -- VARIABLES ----------------------------------------------------------------------------------------------------------
 
-k = 2
-
 ball = {}
 ball.x = 400
 ball.y = 300
@@ -42,7 +40,6 @@ hero.color = {1, 1, 1}
 
 -- FUNCTIONS ----------------------------------------------------------------------------------------------------------
 
--- distance k
 function infiniteDistance(xA, yA, xB, yB)
   return math.max(math.max(xB - xA), math.max(yB - yA))
 end
@@ -79,13 +76,7 @@ function love.update(dt)
   end
 end
 
-function love.draw()
---  love.graphics.print("k = "..k, 10, 10)
-  
---  love.graphics.print("CONTROLS : ", 10, height - 60)
---  love.graphics.print("UP key : increase the value of k", 10, height - 40)
---  love.graphics.print("DOWN key : decrease the value of k", 10, height - 20)
-  
+function love.draw()  
   draw(ball)
   draw(hero)
 end
