@@ -80,7 +80,7 @@ end
 
 function love.load()
   love.window.setMode(1200, 900)
-  love.window.setTitle("distances_6")
+  love.window.setTitle("distances_7")
   width = love.graphics.getWidth()
   height = love.graphics.getHeight()
 end
